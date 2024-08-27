@@ -25,6 +25,10 @@ header{
     padding: 3px 3px 10px 3px;
 }
 
+img{
+    width: 10%;
+}
+
 .principal{
     display: flex;
     gap: 20px;
