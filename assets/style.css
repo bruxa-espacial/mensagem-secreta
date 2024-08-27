@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=PT+Serif&display=swap');
+
+:root{
+    --cor-primaria: #000;
+    --cor-secundaria: #f8f1f1;
+    --cor-terciaria: #d83333;
+    --fonte-secundaria: "Goudy Bookletter 1911", serif;
+    --fonte-primaria: "PT Serif", serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+}
+
+header{
+    text-align: center;
+    padding: 3px 3px 10px 3px;
+}
+
+.principal{
+    display: flex;
+    gap: 20px;
+}
+
+.principal__texto-base{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.principal__texto-base__texto{
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    border: #d83333 solid 2px;
+]}
+
+input{
+    height: 30rem;
+    width: 100%;
+    font-family: var(--fonte-primaria);
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-size: 20px;
+    padding: 10px;
+}
+
+.principal__texto-resposta{
+    width: 40%;
+    background-color: var(--cor-terciaria);
+    border-radius: 26px;
+    color: var(--cor-primaria);
+    text-align: center;
+    padding: auto;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+}
+
+.principal__texto-base__aviso{
+    text-align: center;
+    padding: 15px;
+}
+
+.principal__texto-base__botoes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    font-size: 15px;
+    padding: 8px;
+    width: 10rem;
+    border-radius: 8px;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+}
+
+button:hover{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
+
+footer{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    margin: 20px 0;
+    padding: 2% 1%;
+    border-radius: 8px;
+    text-align: center;
+}
