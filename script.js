@@ -1,5 +1,5 @@
 function converterParaArray(){
-    const input = document.getElementById('texto-base');
+    const input = document.getElementById("texto-base");
     const texto = input.value;
     const textoBase = texto.split("");
     return textoBase;
@@ -53,9 +53,15 @@ function descrip(){
     }
     exibirResultado(texto);
 }
-/*
-function copiarResultado(){
-    const copiado = document.getElementById('principal__texto-resposta__texto');
-    const objetivo = document.getElementById('texto-base');
-    objetivo.innerHTML = copiado.innerHTML;
+
+/*async function copiarResultado(){
+    let copiado = document.getElementById("principal__texto-resposta__texto");
+    copiado.select();
+    copiado = copiado.value;
+    try {
+        await navigator.clipboard.writeText(copiado);
+        console.log("Copiado!");
+    } catch(err){
+        console.error("Falha na cópia: ", err);
+    }
 }*/
