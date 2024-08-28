@@ -18,6 +18,7 @@ body {
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     font-family: var(--fonte-primaria);
+    padding: 2%;
 }
 
 header{
