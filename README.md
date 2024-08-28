@@ -1,6 +1,10 @@
 # Decodificador de texto
+
 Desafio proposto pela Alura com o Oracle One com o intuito de testar a habilidade dos alunos de pôr em prática o que foi apresentado nas aulas.
 O objetivo do projeto era receber um texto comum, escrito sem acentos e inteiro em letra minúscula, e codificá-lo com base das chaves informadas pelo desafio. Também é suposto receber um texto codificado e decodificá-lo com base na chave.
+
+Confira o projeto pronto no [vercel](https://desafio-alura-decoder-jam.vercel.app/)!
+
 
 ## As "chaves" de criptografia que utilizaremos são:
 A letra "e" é convertida para "enter"
