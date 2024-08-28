@@ -54,14 +54,8 @@ function descrip(){
     exibirResultado(texto);
 }
 
-/*async function copiarResultado(){
-    let copiado = document.getElementById("principal__texto-resposta__texto");
-    copiado.select();
-    copiado = copiado.value;
-    try {
-        await navigator.clipboard.writeText(copiado);
-        console.log("Copiado!");
-    } catch(err){
-        console.error("Falha na cópia: ", err);
-    }
-}*/
+function copiarResultado(){
+    const copiado = document.getElementById("principal__texto-resposta__texto").textContent;
+    navigator.clipboard.writeText(copiado);
+    alert("Texto copiado com sucesso!");
+}
